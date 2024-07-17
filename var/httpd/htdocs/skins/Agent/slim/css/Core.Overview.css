@@ -1,0 +1,18 @@
+/*
+Copyright (C) 2012 Znuny GmbH, https://znuny.com/
+
+This software comes with ABSOLUTELY NO WARRANTY. For details, see
+the enclosed file COPYING for license information (GPL). If you
+did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
+*/
+
+/**
+ * @package     Skin "Slim"
+ * @section     Ticket Overviews
+ */
+@media screen,projection,tv,handheld {
+ 
+    ul.QueueOverviewList, ul.ServiceOverviewList {
+        margin-bottom: 0;
+    }
+}

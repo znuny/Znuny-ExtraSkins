@@ -8,7 +8,7 @@ did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
 */
 
 /**
- * @package     Skin "Slim"
+ * @package     Skin "Default"
  * @section     Default Settings
  */
 
@@ -22,5 +22,16 @@ did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
 
     #AttachmentWindow{
         display: none;
+    }
+    .OverviewBox {
+        padding: var(--padding-sm) var(--main-page-padding) 0;
+    }
+
+    .level-filter-view {
+        margin-bottom: var(--margin-xs);
+        padding: var(--padding-xs) var(--padding-xs) 0 var(--padding-xs);
+        color: initial;
+        display: flex;
+        justify-content: flex-start;
     }
 }

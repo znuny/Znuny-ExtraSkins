@@ -34,6 +34,12 @@ did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
         padding: 0;
     }
     
+    /*Highlight DFs*/
+    .dynamic-field-col.div.card-item {
+        background: none;
+    }
+
+
     @media (min-width: 1025px) and (max-width: 1599px) {
         .col-desktop-50 {
             width: 100%;
@@ -63,7 +69,5 @@ did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
             width: 100%;
             max-width: 100%;
         }
-    
-
     }
 }

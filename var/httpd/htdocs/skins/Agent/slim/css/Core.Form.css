@@ -14,6 +14,9 @@ did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
  projection,
  tv,
  handheld {
+    .card div.Field, .card-item div.Field {
+        min-width: auto;
+    }
      .SmallBox,
      .MessageBrowser,
      .MessageBox,
@@ -32,6 +35,3 @@ did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
          }
      }
  }
-.card div.Field, .card-item div.Field {
-    min-width: max-content;
-}

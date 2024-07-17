@@ -11,10 +11,13 @@ did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
  * @section     Widgets
  */
 
-.MessageBrowser {
-    background: bisque;
-}
-/*Increase font size a bit*/
-.Content fieldset > span {
-    font-weight: var(--medium);
+@media screen,projection,tv,handheld {
+ 
+    .MessageBrowser {
+        background: bisque;
+    }
+    /*Increase font size a bit*/
+    .Content fieldset > span {
+        font-weight: var(--medium);
+    }
 }

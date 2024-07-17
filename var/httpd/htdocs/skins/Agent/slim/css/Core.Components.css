@@ -24,11 +24,13 @@ handheld {
     .card-item-wrapper .card-item {
         gap: var(--gap-xs);
     }
+    
     @media (min-width: 1201px) {
         .LayoutPopup > .Content:not(.LayoutFixedSidebar) .card-item {
             margin: 0;
             border-radius: 0;
             padding: 3px var(--padding-lg);
+            background: none;
         }
             
         /*Highlight DFs*/
