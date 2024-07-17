@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_config version="2.0" init="Framework">
+    <Setting Name="Loader::Agent::Skin###000-slim-dark" Required="0" Valid="1">
+        <Description Translatable="1">Dark skin for the agent interface.</Description>
+        <Navigation>Frontend::Base::Loader</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="InternalName">slim-dark</Item>
+                <Item Key="VisibleName" Translatable="1">Dark</Item>
+                <Item Key="Description" Translatable="1">This is the slim skin in dark mode for the agent interface.</Item>
+                <Item Key="HomePage">www.znuny.org</Item>
+            </Hash>
+        </Value>
+    </Setting>
+    <Setting Name="Loader::Agent::Skin###000-slim" Required="0" Valid="1">
+        <Description Translatable="1">Slim skin for the agent interface.</Description>
+        <Navigation>Frontend::Base::Loader</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="InternalName">slim</Item>
+                <Item Key="VisibleName" Translatable="1">Slim</Item>
+                <Item Key="Description" Translatable="1">This is the slim skin for the agent interface.</Item>
+                <Item Key="HomePage">www.znuny.org</Item>
+            </Hash>
+        </Value>
+    </Setting>
+</otrs_config>

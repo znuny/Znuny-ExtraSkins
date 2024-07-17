@@ -1,0 +1,56 @@
+/*
+Copyright (C) 2012 Znuny GmbH, https://znuny.com/
+
+This software comes with ABSOLUTELY NO WARRANTY. For details, see
+the enclosed file COPYING for license information (AGPL). If you
+did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
+*/
+
+/**
+ * @package     Skin "Slim"
+ * @section     Vars
+
+    Values:
+    - px
+    - font-weight
+
+    --hover-brightness: brightness(1.2);
+    --main-transition: all ease .3s;
+*/
+
+:root {
+
+
+    /* Spacing */
+    --size-6: 6px;
+    --size-8 : 8px;
+    --size-10: 10px;
+    --size-15: 15px;
+    --size-20: 20px;
+    --size-30: 30px;
+
+    --gap-xl: 60px;
+    --gap-lg: 30px;
+    --gap-md: 20px;
+    --gap-md-sm: 15px;
+    --gap-sm: 10px;
+    --gap-xs: 5px;
+
+    /* Margins */
+    --margin-xxl: 30px;
+    --margin-xl: 25px;
+    --margin-lg: 20px;
+    --margin-md: 15px;
+    --margin-sm: 10px;
+    --margin-xs: 5px;
+
+    /* Paddings */
+    --padding-xxl: 30px;
+    --padding-xl: 25px;
+    --padding-lg: 20px;
+    --padding-md: 10px;
+    --padding-sm: 10px;
+    --padding-xs: 5px;
+
+
+}

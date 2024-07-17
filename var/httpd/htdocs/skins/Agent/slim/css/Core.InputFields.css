@@ -1,0 +1,42 @@
+/*
+Copyright (C) 2012 Znuny GmbH, https://znuny.com/
+
+This software comes with ABSOLUTELY NO WARRANTY. For details, see
+the enclosed file COPYING for license information (AGPL). If you
+did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
+*/
+
+/**
+ * @package     Skin "Slim"
+ * @section     Input Fields
+ */
+ @media screen,
+ projection,
+ tv,
+ handheld {
+     .SmallBox,
+     .MessageBrowser,
+     .MessageBox,
+     .ACLNote {
+         padding: 10px var(--padding-lg);
+     }
+ 
+     .card-item-wrapper .card-item {
+         gap: var(--gap-xs);
+     }
+     @media (min-width: 1201px) {
+         .LayoutPopup > .Content:not(.LayoutFixedSidebar) .card-item {
+             margin: 0;
+             border-radius: 0;
+             padding: 3px var(--padding-lg);
+         }
+     }
+ }
+
+div.Row .Field > div:not(.InputField_Container):not(.TooltipErrorMessage) {
+    flex-wrap: wrap;
+}
+
+div.Row label, div.Row .Field {
+    flex-direction: row;
+}

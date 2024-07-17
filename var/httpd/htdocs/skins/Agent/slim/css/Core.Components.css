@@ -1,0 +1,47 @@
+/*
+Copyright (C) 2012 Znuny GmbH, https://znuny.com/
+
+This software comes with ABSOLUTELY NO WARRANTY. For details, see
+the enclosed file COPYING for license information (AGPL). If you
+did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
+*/
+
+/**
+ * @package     Skin "Default"
+ * @section     Components
+ */
+@media screen,
+projection,
+tv,
+handheld {
+    .SmallBox,
+    .MessageBrowser,
+    .MessageBox,
+    .ACLNote {
+        padding: 10px var(--padding-lg);
+    }
+
+    .card-item-wrapper .card-item {
+        gap: var(--gap-xs);
+    }
+    @media (min-width: 1201px) {
+        .LayoutPopup > .Content:not(.LayoutFixedSidebar) .card-item {
+            margin: 0;
+            border-radius: 0;
+            padding: 3px var(--padding-lg);
+        }
+            
+        /*Highlight DFs*/
+        .dynamic-field-col.card-item {
+            background: none;
+        }
+        [class*="Row_DynamicField_"]{
+            background-color: var(--main-bg-color);
+            padding: 5px !important;
+            border-radius: inherit;
+            padding: var(--padding-lg);
+            border: var(--border-width) var(--border-solid) var(--border-color);
+            border-radius: var(--border-radius-sm);
+        }
+    }
+}

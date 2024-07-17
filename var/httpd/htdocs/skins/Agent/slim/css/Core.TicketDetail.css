@@ -1,0 +1,30 @@
+/*
+Copyright (C) 2012 Znuny GmbH, https://znuny.com/
+
+This software comes with ABSOLUTELY NO WARRANTY. For details, see
+the enclosed file COPYING for license information (AGPL). If you
+did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
+*/
+
+/**
+ * @package     Skin "Slim"
+ * @section     Ticket Details
+ */
+#ArticleItems .WidgetSimple .Content .ArticleMailContent .Avatar {
+    display: flex;
+    width: 100%;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.ArticleSenderInitials span {
+    font-size: 25px;
+}
+
+#ArticleItems .WidgetSimple.Expanded .Content {
+    padding: 10px var(--padding-lg);
+}
+
+#ArticleItems .ItemActions {
+    padding: 5px var(--padding-lg);
+}

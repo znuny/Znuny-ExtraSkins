@@ -1,0 +1,69 @@
+/*
+Copyright (C) 2012 Znuny GmbH, https://znuny.com/
+
+This software comes with ABSOLUTELY NO WARRANTY. For details, see
+the enclosed file COPYING for license information (GPL). If you
+did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
+*/
+
+/**
+ * @package     Skin "Slim"
+ * @section     Grid
+ */
+
+ @media screen,projection,tv,handheld {
+ 
+    .LayoutFixedSidebar > .ContentColumn, .LayoutFixedSidebar > .ContentColumn > .card, .Content .ContentColumn {
+        padding: 15px var(--main-page-padding)
+    }
+
+    .TicketZoom .ContentColumn .Header {
+        padding: 10px var(--padding-lg);
+    }
+
+    form .card-item > div, fieldset .card-item > .field-wrapper {
+        padding-bottom: var(--padding-sm);
+    }
+
+    .LayoutPopup > .Header {
+        padding: 10px var(--padding-lg);
+        background:var(--color-grey14);
+    }
+
+    Popup .WidgetSimple .Content, .RealPopup .WidgetSimple .Content {
+        padding: 0;
+    }
+    
+    @media (min-width: 1025px) and (max-width: 1599px) {
+        .col-desktop-50 {
+            width: 100%;
+            max-width: calc(20% - var(--margin-lg));
+        }
+    }
+
+    @media (min-width: 1600px) {
+        .card-title, h2.card-title {
+            display: none;
+        }
+        .col-wide-33 {
+            width: 25%;
+            max-width: calc(25% - var(--margin-lg));
+        }
+        .col-wide-25 {
+            width: 25%;
+            max-width: calc(25% - var(--margin-lg));
+        }
+        /*Just added to prevnt changes to the template - in the addon */
+        .col-wide-50 {
+            width: 25%;
+            max-width: calc(25% - var(--margin-lg));
+        }
+        
+        .col-wide-66.dynamic-field-col {
+            width: 100%;
+            max-width: 100%;
+        }
+    
+
+    }
+}

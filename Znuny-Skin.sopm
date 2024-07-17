@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>Znuny-Skin</Name>
+    <Version>7.0.0</Version>
+    <Framework>7.0.x</Framework>
+    <Vendor>Znuny GmbH</Vendor>
+    <URL>https://znuny.com/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Description Lang="en">This package contains the slim skin in regular and dark mode.</Description>
+    <Description Lang="de">Dieses Paket enthält das Slim Skin in normal und dunkel. </Description>
+    <Filelist>
+        <File Permission="660" Location="Kernel/Config/Files/XML/Znuny-Skin.xml"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim/css/Core.Components.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim/css/Core.Default.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim/css/Core.Form.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim/css/Core.InputFields.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim/css/Core.PageLayout.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim/css/Core.TicketDetail.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim/css/Core.Vars.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim/css/Core.Widget.css"/>
+    </Filelist>
+</otrs_package>
