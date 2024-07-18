@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<otrs_config version="2.0" init="Framework">
+<otrs_config version="2.0" init="Application">
     <Setting Name="Loader::Agent::Skin###000-slim-dark" Required="0" Valid="1">
         <Description Translatable="1">Dark skin for the agent interface.</Description>
         <Navigation>Frontend::Base::Loader</Navigation>

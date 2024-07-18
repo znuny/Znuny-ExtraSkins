@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <otrs_package version="1.0">
-    <Name>Znuny-Skins</Name>
+    <Name>Znuny-ExtraSkins</Name>
     <Version>7.0.0</Version>
     <Framework>7.0.x</Framework>
     <Vendor>Znuny GmbH</Vendor>
@@ -9,7 +9,7 @@
     <Description Lang="en">This package contains the slim skin in regular and dark mode.</Description>
     <Description Lang="de">Dieses Paket enthält das Slim Skin in normal und dunkel. </Description>
     <Filelist>
-        <File Permission="660" Location="Kernel/Config/Files/XML/Znuny-Skins.xml"/>
+        <File Permission="660" Location="Kernel/Config/Files/XML/Znuny-ExtraSkins.xml"/>
         <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim/css/Core.Components.css"/>
         <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim/css/Core.Default.css"/>
         <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim/css/Core.Form.css"/>
