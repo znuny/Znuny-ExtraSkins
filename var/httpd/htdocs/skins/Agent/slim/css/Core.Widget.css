@@ -12,12 +12,19 @@ did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
  */
 
 @media screen,projection,tv,handheld {
- 
+
     .MessageBrowser {
         background: bisque;
     }
-    /*Increase font size a bit*/
+    /* Increase font size a bit */
     .Content fieldset > span {
         font-weight: var(--medium);
     }
+
+    /* Changed --padding-lg to --padding-xs */
+    .WidgetSimple .Content fieldset:not(.Hidden) {
+        gap: var(--padding-xs);
+        padding: var(--padding-xs);
+    }
+
 }
