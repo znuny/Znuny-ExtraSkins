@@ -22,5 +22,17 @@
         <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim/css/Core.TicketDetail.css"/>
         <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim/css/Core.Vars.css"/>
         <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim/css/Core.Widget.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim-dark/css/Core.Agent.Admin.SupportDataCollector.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim-dark/css/Core.Widget.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim-dark/css/Core.Components.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim-dark/css/Core.PageLayout.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim-dark/css/Core.RichTextEditor.ContentsCss.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim-dark/css/Core.Form.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim-dark/css/Core.OverviewControl.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim-dark/css/Core.InputFields.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim-dark/css/Core.Default.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim-dark/css/Core.Overview.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim-dark/css/Core.Vars.css"/>
+        <File Permission="660" Location="var/httpd/htdocs/skins/Agent/slim-dark/css/Core.TicketDetail.css"/>
     </Filelist>
 </otrs_package>

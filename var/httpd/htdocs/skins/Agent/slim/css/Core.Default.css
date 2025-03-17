@@ -12,7 +12,11 @@ did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
  * @section     Default Settings
  */
 
- @media screen,projection,tv,handheld {
+@media screen,
+projection,
+tv,
+handheld {
+
     /**
     * @subsection  MainBox
     */
@@ -20,9 +24,10 @@ did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.txt.
         padding: 5px var(--main-page-padding);
     }
 
-    #AttachmentWindow{
+    #AttachmentWindow {
         display: none;
     }
+
     .OverviewBox {
         padding: var(--padding-sm) var(--main-page-padding) 0;
     }

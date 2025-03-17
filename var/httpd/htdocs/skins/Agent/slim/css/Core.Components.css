@@ -14,6 +14,7 @@ did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
 projection,
 tv,
 handheld {
+
     .SmallBox,
     .MessageBrowser,
     .MessageBox,
@@ -24,20 +25,21 @@ handheld {
     .card-item-wrapper .card-item {
         gap: var(--gap-xs);
     }
-    
+
     @media (min-width: 1201px) {
-        .LayoutPopup > .Content:not(.LayoutFixedSidebar) .card-item {
+        .LayoutPopup>.Content:not(.LayoutFixedSidebar) .card-item {
             margin: 0;
             border-radius: 0;
             padding: 3px var(--padding-lg);
             background: none;
         }
-            
+
         /*Highlight DFs*/
         .dynamic-field-col.card-item {
             background: none;
         }
-        [class*="Row_DynamicField_"]{
+
+        [class*="Row_DynamicField_"] {
             background-color: var(--main-bg-color);
             padding: 5px !important;
             border-radius: inherit;

@@ -7,18 +7,13 @@ did not receive this file, see http://www.gnu.org/licenses/agpl.txt.
 */
 
 /**
- * @package     Skin "Slim"
- * @section     Forms
+ * @package     Skin "Slim-Dark"
+ * @section     Components
  */
 @media screen,
 projection,
 tv,
 handheld {
-
-    .card div.Field,
-    .card-item div.Field {
-        min-width: auto;
-    }
 
     .SmallBox,
     .MessageBrowser,
@@ -36,6 +31,21 @@ handheld {
             margin: 0;
             border-radius: 0;
             padding: 3px var(--padding-lg);
+            background: none;
+        }
+
+        /*Highlight DFs*/
+        .dynamic-field-col.card-item {
+            background: none;
+        }
+
+        [class*="Row_DynamicField_"] {
+            background-color: var(--main-bg-color);
+            padding: 5px !important;
+            border-radius: inherit;
+            padding: var(--padding-lg);
+            border: var(--border-width) var(--border-solid) var(--border-color);
+            border-radius: var(--border-radius-sm);
         }
     }
 }
