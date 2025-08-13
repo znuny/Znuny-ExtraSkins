@@ -47,5 +47,9 @@ handheld {
             border: var(--border-width) var(--border-solid) var(--border-color);
             border-radius: var(--border-radius-sm);
         }
+
+        .main-search-component .search-ticket .top-section fieldset.TableLike .Field.create-tpm-btn {
+            top: -25px;
+        }
     }
 }
