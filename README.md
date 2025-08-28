@@ -7,7 +7,7 @@ This add-on provides additional skins to you Znuny ticket system.
 
 **Prerequisites**
 
-- Znuny 7.1
+- Znuny 7.2
 
 **Installation**
 
