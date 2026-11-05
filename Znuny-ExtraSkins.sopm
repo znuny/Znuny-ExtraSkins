@@ -8,6 +8,7 @@
     <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
     <Description Lang="en">This package contains the slim skin in regular and dark mode.</Description>
     <Description Lang="de">Dieses Paket enthält das Slim Skin in normal und dunkel. </Description>
+    <Description Lang="hu">Ez a csomag a karcsú felületet tartalmazza normál és sötét módban.</Description>
     <ChangeLog Version="7.3.1" Date="2025-12-04 23:51:06 +0100">Initial release for Znuny 7.3.</ChangeLog>
     <ChangeLog Version="7.2.1" Date="2025-08-28 21:16:15 +0200">Initial version for Znuny 7.2.</ChangeLog>
     <ChangeLog Version="7.1.5" Date="2025-08-13 13:57:34 +0200">Fixed - If the slim or slim-dark skin is activated and the search via the magnifying glass in the toolbar is selected, the button 'Create new' is halved.</ChangeLog>
